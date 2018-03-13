@@ -1,0 +1,194 @@
+.nav-bar-top{
+    display: flex;
+    font-size: 22px;
+    font-family: Verdana;
+    font-weight: 400;
+    padding: 40px 0 0 40px;
+}
+.nav-bar-container {
+    background-color: #E8D2FF;
+}
+.nav-link {
+    padding: 0 30px 0 30px;
+}
+.footer-copyright {
+
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 100;
+    position: sticky;
+    padding: 0 0 30px 0;
+}
+.footer-copyright-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FCFFCD;
+}
+
+/*home page component styling*/
+.home-body-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+/*contact page component styling*/
+.contact-images {
+    display: flex;
+    justify-content: center;
+}
+.contact-images-ind {
+    padding-right: 20px;
+}
+
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #FFF7DF;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #A5FFFF;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
+}
+
+p.email {
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+/* Style the image inside the centered container, if needed */
+/*.centered img {
+  width: 150px;
+  border-radius: 50%;
+}*/
+
+/*.contact-body-content {
+    flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #A5FFFF 0%,#A5FFFF 50%,#000000 50%,white 50%,white 100%); /* W3C */
+}*/
+
+
+/*about component styling*/
+.about-photo-container {
+    display: flex;
+    /*justify-content: flex-start;*/
+    flex-flow: column wrap;
+    align-self: flex-start;
+    padding: 80px 0 0 300px;
+    /*position: absolute;*/
+
+}
+.about-photo {
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    padding: 70px 900px 0 0;
+    position: sticky;
+    max-width: 500px;
+    max-height: 3000px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.about-link {
+    padding: 0 20px 0 20px;
+}
+.icons {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.about-links {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Verdana;
+    top: 350px;
+    max-width: 750px;
+    padding-right: 250px;
+    position: absolute;
+    line-height: 35px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.about-text {
+    font-family: Verdana;
+    top: 400px;
+    max-width: 750px;
+    max-height: 500px;
+    position: absolute;
+    line-height: 55px;
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+.about-sm-img-container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    padding-top: 40px;
+}
+.about-sm-img {
+    max-width: 350px;
+    max-height: 350px;
+    padding-right: 25px;
+    border-radius: 5px;
+
+}
+
+/*natural unclassed tags*/
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.part-b {
+    background: white;
+    overflow: hidden;
+    position: relative;
+}
+.part-b .background {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #AEFFD1;
+}
