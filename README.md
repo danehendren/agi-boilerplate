@@ -1,1 +1,1 @@
-# skeleton-agi-boilerplate
+# agi-boilerplate
