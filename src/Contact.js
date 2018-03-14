@@ -1,7 +1,20 @@
 import React from 'react';
 
 
+// function iconClick() {
+//     function handleClick(e) {
+//         e.preventDefault();
+//         console.log('the icon was clicked');
+//     }
+// }
+
 function Contact(props) {
+
+    function handleClick(e) {
+        e.preventDefault();
+        console.log('the icon was clicked');
+    }
+
 
     return (
         <div>
@@ -13,9 +26,9 @@ function Contact(props) {
                 <br />
                 <br />
                 <ul className="contact-images">
-                    <li className="contact-images-ind"><img src="media/twitlogo.png" className="icons"/></li>
-                    <li className="contact-images-ind"><img src="media/github.png" className="icons"/></li>
-                    <li className="contact-images-ind"><img src="media/linklogo.png" className="icons"/></li>
+                    <li className="contact-images-ind"><img src="media/twitlogo.png" className="icons" onClick={handleClick}/></li>
+                    <li className="contact-images-ind"><img src="media/github.png" className="icons" onClick={handleClick}/></li>
+                    <li className="contact-images-ind"><img src="media/linklogo.png" className="icons" onClick={handleClick}/></li>
                 </ul>
 
             </div>
