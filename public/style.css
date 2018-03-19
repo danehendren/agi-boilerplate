@@ -33,8 +33,30 @@
     justify-content: space-around;
     align-items: center;
     padding-bottom: 30px;
+}
+/* Pattern styles */
+.container {
+  display: flex;
 
 }
+
+.left-half-home {
+  background-color: #f2a59c;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half-home {
+  background-color: #cfffa7;
+  flex: 2;
+  padding: 1rem;
+}
+/*div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
+
 /*contact page component styling*/
 .contact-images {
     display: flex;
@@ -53,7 +75,7 @@
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 30;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -92,17 +114,6 @@ p.email {
   width: 150px;
   border-radius: 50%;
 }*/
-
-/*.contact-body-content {
-    flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 30px;
-    background: linear-gradient(to bottom, #A5FFFF 0%,#A5FFFF 50%,#000000 50%,white 50%,white 100%); /* W3C */
-}*/
-
 
 /*about component styling*/
 .about-photo-container {
@@ -166,8 +177,31 @@ p.email {
     max-height: 350px;
     padding-right: 25px;
     border-radius: 5px;
+}
+
+/*journey component*/
+
+.container {
+  display: flex;
 
 }
+
+.left-half-journey {
+  background-color: #DFE7FF;
+  flex: 70;
+  padding: 1rem;
+}
+
+.right-half-journey {
+  background-color: #FFC79A;
+  flex: 30;
+  padding: 1rem;
+}
+
+
+
+
+
 
 /*natural unclassed tags*/
 a {

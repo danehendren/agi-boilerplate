@@ -26,9 +26,9 @@ function Contact(props) {
                 <br />
                 <br />
                 <ul className="contact-images">
-                    <li className="contact-images-ind"><img src="media/twitlogo.png" className="icons" onClick={handleClick}/></li>
-                    <li className="contact-images-ind"><img src="media/github.png" className="icons" onClick={handleClick}/></li>
-                    <li className="contact-images-ind"><img src="media/linklogo.png" className="icons" onClick={handleClick}/></li>
+                    <li className="contact-images-ind"><img src="media/twitlogo.png" className="icons" onClick={handleClick} alt="" /></li>
+                    <li className="contact-images-ind"><img src="media/github.png" className="icons" onClick={handleClick} alt="" /></li>
+                    <li className="contact-images-ind"><img src="media/linklogo.png" className="icons" onClick={handleClick} alt="" /></li>
                 </ul>
 
             </div>
