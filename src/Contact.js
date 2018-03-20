@@ -10,25 +10,19 @@ import React from 'react';
 
 function Contact(props) {
 
-    function handleClick(e) {
-        e.preventDefault();
-        console.log('the icon was clicked');
-    }
-
-
     return (
         <div>
             <div className="centered">
                 <h1>Contact</h1>
-                <br />
+                    <br />
                 <p className="email">danehendren@gmail.com</p>
                 <p>Dad. Husband. Fermentation Enthusiast. Yogi.  Remotely ready.</p>
-                <br />
-                <br />
+                    <br />
+                    <br />
                 <ul className="contact-images">
-                    <li className="contact-images-ind"><img src="media/twitlogo.png" className="icons" onClick={handleClick} alt="" /></li>
-                    <li className="contact-images-ind"><img src="media/github.png" className="icons" onClick={handleClick} alt="" /></li>
-                    <li className="contact-images-ind"><img src="media/linklogo.png" className="icons" onClick={handleClick} alt="" /></li>
+                    <a href="https://twitter.com/danehendren"><li className="contact-images-ind"><img src="media/twitlogo.png" className="icons" alt="" /></li></a>
+                    <a href="https://github.com/danehendren"><li className="contact-images-ind"><img src="media/github.png" className="icons" alt="" /></li></a>
+                    <a href="https://www.linkedin.com/in/danehendren/"><li className="contact-images-ind"><img src="media/linklogo.png" className="icons" alt="" /></li></a>
                 </ul>
 
             </div>

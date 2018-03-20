@@ -55,7 +55,7 @@ section {
 }
 
 .right-half-home {
-  background-color: #cfffa7;
+  background-color: #F4E8FF;
   flex: 1;
   padding: 1rem;
 }
@@ -73,6 +73,8 @@ section {
 
 .contact-images-ind {
     padding-right: 39px;
+    /*height: 30px;
+    transition: all 0.3s ease-in-out;*/
 
 }
 
@@ -235,6 +237,9 @@ p.email {
 a {
     text-decoration: none;
 }
+/*a:hover {
+    color: green;
+}*/
 li {
     list-style-type: none;
     padding: 0;
