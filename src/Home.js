@@ -10,7 +10,7 @@ function Home(props) {
 
 
 
-                    <img src="media/cat-photo.jpg" className="about-sm-img"  alt="" />
+                    <img src="media/foxfox.jpg" className="about-sm-img"  alt="" />
 
                 <div className="journey-block">
                     <h2>Petition for Dog Park in Bremen</h2>
@@ -24,7 +24,7 @@ function Home(props) {
                         <p></p>
                 </div>
 
-                <img src="media/cat-photo.jpg" className="about-sm-img"  alt="" />
+                <img src="media/foxfox.jpg" className="about-sm-img"  alt="" />
 
             </section>
 

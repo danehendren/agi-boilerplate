@@ -222,8 +222,16 @@ p.email {
     /*display: flex;
     justify-content: ;*/
 }
+/*CSS cursor change to image, Pan?*/
+ {
+    cursor: url('media/iron.png'), auto;
+}
 
+img:hover {
+    -webkit-transition: all .1s ease-in;
+    -webkit-transform: scale(1.5,1.5);
 
+}
 
 
 /*natural unclassed tags*/
@@ -253,4 +261,4 @@ li {
     width: 50%;
     height: 100%;
     background-color: #AEFFD1;
-}*/
+}

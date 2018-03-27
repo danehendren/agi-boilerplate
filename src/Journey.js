@@ -7,9 +7,9 @@ function Journey(props) {
         <div className="container">
             <div className="left-half-journey">
                 <p>This is the left side.</p>
-                    <img src="media/cat-photo.jpg" className="journey-md-img"  alt="" />
-                    <img src="media/cat-photo.jpg" className="journey-md-img"  alt="" />
-                    <img src="media/cat-photo.jpg" className="journey-md-img"  alt="" />
+                    <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
+                    <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
+                    <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
             </div>
 
             <div className="right-half-journey">
