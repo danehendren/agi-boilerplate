@@ -1,9 +1,11 @@
+
+/*Navigation bar CSS*/
 .nav-bar-top{
-    display: flex;
+    /*display: flex;*/
     font-size: 22px;
     font-family: Verdana;
     font-weight: 400;
-    padding: 40px 0 0 40px;
+    padding: 80px 0 0 40px;
 }
 .nav-bar-container {
     background-color: #E8D2FF;
@@ -11,8 +13,8 @@
 .nav-link {
     padding: 0 30px 0 30px;
 }
+/*Footer bar CSS*/
 .footer-copyright {
-
     font-size: 20px;
     font-family: Helvetica;
     font-weight: 100;
@@ -25,45 +27,39 @@
     background-color: #FCFFCD;
 }
 
-/*home page component styling*/
+/*About Component CSS*/
+/*Wrongly given classname CHANGE ABOUT tags with proper*/
 .home-body-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /*padding-bottom: 30px;*/
     height: 100%;
 }
-/* Pattern styles */
+/* Home/Work Component CSS */
 .container {
   display: flex;
 }
-
 section {
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
 }
-
-
 .left-half-home {
   background-color: #f2a59c;
   flex: 1;
   padding: 1rem;
+  padding-top: 300px;
 }
 
 .right-half-home {
   background-color: #F4E8FF;
   flex: 1;
   padding: 1rem;
+  padding-top: 300px;
 }
-/*div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}*/
 
 /*contact page component styling*/
 .contact-images {
@@ -75,10 +71,7 @@ section {
     padding-right: 39px;
     /*height: 30px;
     transition: all 0.3s ease-in-out;*/
-
 }
-
-
 /* Split the screen in half */
 .split {
   height: 100%;
