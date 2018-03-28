@@ -6,28 +6,29 @@ function Journey(props) {
     return (
         <div className="container">
             <div className="left-half-journey">
-                <p>This is the left side.</p>
                     <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
-                    <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
-                    <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
+                    <img src="media/personal/weddingphoto.jpg" className="journey-md-img-right"  alt="" />
+                    <img src="media/personal/mustphoto.jpg" className="journey-md-img"  alt="" />
+                    <img src="media/foxfox.jpg" className="journey-md-img-right"  alt="" />
+
             </div>
 
             <div className="right-half-journey">
                     <div className="journey-block">
-                        <h2>A little bit of this and a little bit of that</h2>
-                        <p>Beginning a new life in Nashville, TN I was hoping to find a different/better/more interesting career.  </p>
+                        <h2>Getting hitched in Nashville and moving to Germany</h2>
+                        <p>Beginning a new life in Nashville, TN I was hoping to find a different/better/more interesting career.  My wife and I were also picking a new direction for each of our lives by deciding to get married and start a new life together.</p>
                     </div>
                     <div className="journey-block">
-                        <h2>Marriage and Moving</h2>
-                        <p>Beginning with my wife and I getting married in Nashville, Tennesse I was out for something different than before.</p>
+                        <h2>Mid-way 2017 making decisions</h2>
+                        <p>My wife and I had an 'celebratory' wedding here in Germany as our wedding in Nashville was only her mom and sister via Skype and my dog, Pan, being held by me as we said "I do".  I had tried finding work through friends and applied at small shops and cafes but nothing was proving to fit.  I turned to programming.</p>
                     </div>
                     <div className="journey-block">
-                        <h2>2017 Begins...</h2>
-                        <p>Being in Germany for a few months I had continued looking for a job.  Finding a profession in what I had done wasn't what I was looking for.  I wanted something new but I wasn't sure.  I thought back to my friends bootcamp journey and my days of giving it a shot.</p>
+                        <h2>Tiny potato in the oven</h2>
+                        <p>My wife and I were expecting in the summer of 2017 and that helped me make a strong decision with programming.  I was to change careers into a field that I was constantly involved with and curiously adventurous towards.  I would support us by departing on a difficult and arduous adventure into the unknown.</p>
                     </div>
                     <div className="journey-block">
                         <h2>To Berlin and Beyond...</h2>
-                        <p>There are words coming here to explain SPICED Academy and then the after the fact times</p>
+                        <p>Leaving my pregnant wife and dogs behind in Bremen (I know, doesn't sound nice exactly)</p>
                     </div>
             </div>
 

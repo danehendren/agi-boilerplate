@@ -72,6 +72,9 @@ section {
     /*height: 30px;
     transition: all 0.3s ease-in-out;*/
 }
+.contact-images-ind:hover {
+    opacity: 0.4;
+}
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -141,6 +144,9 @@ p.email {
 .about-link {
     padding: 0 20px 0 20px;
 }
+.about-link:hover {
+    opacity: 0.4;
+}
 .icons {
     max-width: 50px;
     max-height: 50px;
@@ -151,6 +157,7 @@ p.email {
     flex-flow: row wrap;
     font-family: Verdana;
     top: 350px;
+    right: 300px;
     max-width: 750px;
     padding-right: 250px;
     position: absolute;
@@ -159,13 +166,16 @@ p.email {
     text-decoration-line: underline;
 }
 .about-text {
-    font-family: Verdana;
-    top: 400px;
+    font-family: sans-serif;
+    top: 420px;
+    right: 300px;
     max-width: 750px;
     max-height: 500px;
     position: absolute;
-    line-height: 55px;
-    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-weight: 500;
     padding-left: 150px;
 }
 
@@ -209,29 +219,42 @@ p.email {
 .journey-md-img {
     max-width: 550px;
     max-height: 550px;
-    padding-right: 25px;
     border-radius: 5px;
     padding: 10px;
-    opacity: 0.7;
+    opacity: 0.6;
+    display: flex;
+    align-self: flex-end;
+
+}
+.journey-md-img-right {
+    max-width: 550px;
+    max-height: 550px;
+    border-radius: 5px;
+    display: flex;
+    align-self: flex-start;
+    opacity: 0.6;
+}
+.journey-md-img:hover {
+    opacity: 1.0;
+}
+.journey-md-img-right:hover {
+    opacity: 1.0;
 }
 .left-half-images {
     display: flex;
 }
 .journey-block {
-    margin: 80px;;
-    /*display: flex;
-    justify-content: ;*/
+    margin: 110px;;
 }
 /*CSS cursor change to image, Pan?*/
  {
     cursor: url('media/iron.png'), auto;
 }
 
-img:hover {
+/*img:hover {
     -webkit-transition: all .1s ease-in;
     -webkit-transform: scale(1.5,1.5);
-
-}
+}*/
 
 
 /*natural unclassed tags*/
@@ -260,5 +283,5 @@ li {
     left: 0px;
     width: 50%;
     height: 100%;
-    background-color: #AEFFD1;
+    background-color: #B8E9FF;
 }
