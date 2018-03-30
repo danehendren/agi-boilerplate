@@ -21,6 +21,7 @@ function About(props) {
                                 {/* <a href="https://twitter.com/danehendren"><li className="about-link"><img src="media/twitlogo.png" className="icons" alt="" /></li></a> */}
                                 <a href="https://www.youtube.com/channel/UC04VLv0PdV5Crla3oxSSacg"><li className="about-link"><img src="media/youtuicon.png" className="icons" alt="" /></li></a>
                                 <a href="https://www.flickr.com/photos/danehendren"><li className="about-link"><img src="media/flicklogo.png" className="icons" alt="" /></li></a>
+
                             </ul>
                             <p className="about-text">I don't have anything fancy to say and my life direction is currently pointed at family as my wife and I just had our first son.
                                 <br></br><br></br>
