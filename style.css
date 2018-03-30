@@ -1,0 +1,332 @@
+/*
+/*Navigation bar CSS*/
+.nav-bar-top {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding: 80px 0 0 40px;
+}
+
+
+.nav-bar-container {
+    background-color: #E8D2FF;
+}
+.nav-link-ind {
+    padding: 0 30px 0 30px;
+}
+.nav-link-ind:hover {
+    text-decoration: underline;
+}
+/*Footer bar CSS*/
+.footer-copyright {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 100;
+    position: sticky;
+    padding: 0 0 30px 0;
+}
+.footer-copyright-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FCFFCD;
+}
+
+/*About Component CSS*/
+/*Wrongly given classname CHANGE ABOUT tags with proper*/
+.home-body-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+/* Home/Work Component CSS */
+.container {
+  display: flex;
+}
+section {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.left-half-home {
+  background-color: #f2a59c;
+  flex: 1;
+  padding: 1rem;
+  padding-top: 300px;
+}
+
+.right-half-home {
+  background-color: #F4E8FF;
+  flex: 1;
+  padding: 1rem;
+  padding-top: 300px;
+}
+
+.home-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.home-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/*contact page component styling*/
+.contact-images {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-images-ind {
+    padding-right: 39px;
+    /*height: 30px;
+    transition: all 0.3s ease-in-out;*/
+}
+.contact-images-ind:hover {
+    opacity: 0.4;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 30;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #FFF7DF;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #A5FFFF;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
+}
+
+p.email {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+.contact-info {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
+/* Style the image inside the centered container, if needed */
+/*.centered img {
+  width: 150px;
+  border-radius: 50%;
+}*/
+
+/*about component styling*/
+.about-photo-container {
+    display: flex;
+    /*justify-content: flex-start;*/
+    flex-flow: column wrap;
+    align-self: flex-start;
+    padding: 80px 0 0 300px;
+    /*position: absolute;*/
+
+}
+.about-photo {
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    padding: 70px 900px 0 0;
+    position: sticky;
+    max-width: 500px;
+    max-height: 3000px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.about-link {
+    padding: 0 20px 0 20px;
+}
+.about-link:hover {
+    opacity: 0.4;
+}
+.icons {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.about-links {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Verdana;
+    top: 350px;
+    right: 300px;
+    max-width: 750px;
+    padding-right: 250px;
+    position: absolute;
+    line-height: 35px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.about-text {
+    font-family: "Times New Roman", Times, serif;
+    top: 420px;
+    right: 300px;
+    max-width: 750px;
+    max-height: 500px;
+    position: absolute;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-left: 150px;
+}
+
+.about-sm-img-container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    padding-top: 40px;
+}
+.about-sm-img {
+    max-width: 350px;
+    max-height: 350px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+.about-sm-img:hover {
+    opacity: 0.6;
+}
+
+
+/*journey component*/
+
+.container {
+  display: flex;
+
+}
+
+.left-half-journey {
+  background-color: #DFE7FF;
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.right-half-journey {
+  background-color: #FFC79A;
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.journey-md-img {
+    max-width: 550px;
+    max-height: 550px;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.6;
+    display: flex;
+    align-self: flex-end;
+
+}
+.journey-md-img-right {
+    max-width: 550px;
+    max-height: 550px;
+    border-radius: 5px;
+    display: flex;
+    align-self: flex-start;
+    opacity: 0.6;
+}
+.journey-md-img:hover {
+    opacity: 1.0;
+}
+.journey-md-img-right:hover {
+    opacity: 1.0;
+}
+.left-half-images {
+    display: flex;
+}
+.journey-block {
+    margin: 110px;;
+}
+.journey-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.journey-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/*CSS cursor change to image, Pan?*/
+ {
+    cursor: url('media/iron.png'), auto;
+}
+
+/*img:hover {
+    -webkit-transition: all .1s ease-in;
+    -webkit-transform: scale(1.5,1.5);
+}*/
+
+
+/*natural unclassed tags*/
+a {
+    text-decoration: none;
+}
+/*a:hover {
+    color: green;
+}*/
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.part-b {
+    background: white;
+    overflow: hidden;
+    position: relative;
+}
+.part-b .background {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #B8E9FF;
+}
