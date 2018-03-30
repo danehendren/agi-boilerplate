@@ -1,17 +1,21 @@
 /*
 /*Navigation bar CSS*/
-.nav-bar-top{
-    /*display: flex;*/
+.nav-bar-top {
     font-size: 22px;
-    font-family: Verdana;
-    font-weight: 400;
+    font-family: sans-serif;
+    font-weight: 300;
     padding: 80px 0 0 40px;
 }
+
+
 .nav-bar-container {
     background-color: #E8D2FF;
 }
-.nav-link {
+.nav-link-ind {
     padding: 0 30px 0 30px;
+}
+.nav-link-ind:hover {
+    text-decoration: underline;
 }
 /*Footer bar CSS*/
 .footer-copyright {
@@ -59,6 +63,21 @@ section {
   flex: 1;
   padding: 1rem;
   padding-top: 300px;
+}
+
+.home-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.home-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 /*contact page component styling*/
@@ -110,10 +129,17 @@ section {
 
 p.email {
     font-weight: bold;
+    font-size: 20px;
     padding-bottom: 2px;
     border-bottom: 3px solid;
     display: inline-block;
 }
+.contact-info {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
 
 /* Style the image inside the centered container, if needed */
 /*.centered img {
@@ -166,15 +192,15 @@ p.email {
     text-decoration-line: underline;
 }
 .about-text {
-    font-family: sans-serif;
+    font-family: "Times New Roman", Times, serif;
     top: 420px;
     right: 300px;
     max-width: 750px;
     max-height: 500px;
     position: absolute;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 25px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: 500;
     padding-left: 150px;
 }
@@ -191,6 +217,10 @@ p.email {
     padding-right: 25px;
     border-radius: 5px;
 }
+.about-sm-img:hover {
+    opacity: 0.6;
+}
+
 
 /*journey component*/
 
@@ -246,6 +276,21 @@ p.email {
 .journey-block {
     margin: 110px;;
 }
+.journey-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.journey-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
 /*CSS cursor change to image, Pan?*/
  {
     cursor: url('media/iron.png'), auto;

@@ -25,46 +25,46 @@ function Home(props) {
 
     return (
         <div className="container">
-
             <section className="left-half-home">
-
-
-
                     <img src="media/foxfox.jpg" className="about-sm-img"  alt="" />
 
                 <div className="journey-block">
-                    <h2 onClick={handleClick} >Petition for Dog Park in Bremen</h2>
-                    <p>Click Me!</p>
+                    <h2 onClick={handleClick} className="home-title">Petition for Dog Park in Bremen</h2>
+                    <p className="home-text">Click Me!</p>
                 </div>
 
-                <img src="screenshots/foxSCREENSHOThome.png" className="about-sm-img"  alt="" />
+                    <img src="screenshots/foxSCREENSHOThome.png" className="about-sm-img"  alt="" />
 
                 <div className="journey-block">
-                    <h2>Bark Board</h2>
-                        <p></p>
+                    <h2 className="home-title">Bark Board</h2>
+                        <p className="home-text"></p>
                 </div>
 
-                <img src="media/foxfox.jpg" className="about-sm-img"  alt="" />
+                    <img src="media/foxfox.jpg" className="about-sm-img"  alt="" />
 
             </section>
 
             <section className="right-half-home">
 
                 <div className="journey-block">
-                    <h2>To Berlin and Beyond...</h2>
-                    <p>There are words coming here to explain SPICED Academy and then the after the fact times</p>
-                </div>
-                    <img src="screenshots/pupPETITIONone.png" className="about-sm-img"  alt="" />
-                <div className="journey-block">
-                    <h2>Minimalist Website</h2>
-                    <p>the fact times</p>
+                    <h2 className="home-title">To Berlin and Beyond</h2>
+                    <p className="home-text"> There are words coming here to explain SPICED Academy and then the after the fact times</p>
                 </div>
 
-                <img src="screenshots/imageboardSCREENSHOT.png" className="about-sm-img"  alt="" />
+                    <img src="screenshots/pupPETITIONone.png" className="about-sm-img"  alt="" />
+
                 <div className="journey-block">
-                    <h2>To Berlin and Beyond...</h2>
-                    <p>There are words coming here to explain SPICED Academy and then the after the fact times</p>
+                    <h2 className="home-title">Minimalist Website</h2>
+                    <p className="home-text"> the fact times</p>
                 </div>
+
+                    <img src="screenshots/imageboardSCREENSHOT.png" className="about-sm-img"  alt="" />
+
+                <div className="journey-block">
+                    <h2 className="home-title">To Berlin and Beyond...</h2>
+                    <p className="home-text">There are words coming here to explain SPICED Academy and then the after the fact times</p>
+                </div>
+
             </section>
 
         </div>

@@ -10,10 +10,10 @@ export class Navi extends React.Component {
             <Router>
                 <div className="nav-bar-container">
                     <div className="nav-bar-top">
-                        <Link to="/" className="nav-link">home/work</Link>
-                        <Link to="/contact" className="nav-link">contact</Link>
-                        <Link to="/about" className="nav-link">about</Link>
-                        <Link to="/journey" className="nav-link">journey</Link>
+                        <Link to="/" className="nav-link-ind">home/work</Link>
+                        <Link to="/contact" className="nav-link-ind">contact</Link>
+                        <Link to="/about" className="nav-link-ind">about</Link>
+                        <Link to="/journey" className="nav-link-ind">journey</Link>
 
                     </div>
                     {/* <button type="button" className="btn btn-light">Light</button> */}

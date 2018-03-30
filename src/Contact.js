@@ -16,7 +16,7 @@ function Contact(props) {
                 <h1>Contact</h1>
                     <br />
                 <p className="email">danehendren@gmail.com</p>
-                <p>Dad| Husband | Fermentation Enthusiast | Yogi</p>
+                <p className="contact-info">  Developer | Dad | Husband | Yogi | Fermentation Enthusiast</p>
                     <br />
                     <br />
                 <ul className="contact-images">

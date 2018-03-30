@@ -28,9 +28,9 @@ function About(props) {
                                 <br></br><br></br>
                             There are more words coming here but not yet. There are more words coming here but not yet.  There are more words coming here but not yet.  There are more words coming here but not yet.There are more words coming here but not yet. </p>
                             <ul className="about-sm-img-container">
-                                <li><img src="media/ira-hvar.jpg" className="about-sm-img"  alt="" /></li>
-                                <li><img src="media/boat-photo.jpg" className="about-sm-img"  alt="" /></li>
-                                <li><img src="media/cat-photo.jpg" className="about-sm-img"  alt="" /></li>
+                                <li><img src="media/foxfox.jpg" className="about-sm-img"  alt="" /></li>
+                                <li><img src="media/foxfox.jpg" className="about-sm-img"  alt="" /></li>
+                                <li><img src="media/foxfox.jpg" className="about-sm-img"  alt="" /></li>
                             </ul>
                         </div>
                     </div>
