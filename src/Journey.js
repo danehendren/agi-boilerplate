@@ -8,7 +8,7 @@ function Journey(props) {
             <div className="left-half-journey">
                     <img src="media/foxfox.jpg" className="journey-md-img"  alt="" />
                     <img src="media/personal/weddingphoto.jpg" className="journey-md-img-right"  alt="" />
-                    <img src="media/personal/mustphoto.JPG" className="journey-md-img"  alt="" />
+                    <img src="media/personal/mustphoto.jpg" className="journey-md-img"  alt="" />
                     <img src="media/foxfox.jpg" className="journey-md-img-right"  alt="" />
 
             </div>
